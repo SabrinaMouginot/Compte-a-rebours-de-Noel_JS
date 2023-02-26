@@ -45,3 +45,11 @@ document.querySelector("#minutes").innerText = minutes
 document.querySelector("#secondes").innerText = secondes
 //La méthode querySelector() de l'interface Document retourne le premier Element dans le document correspondant au sélecteur - ou groupe de sélecteurs - spécifié(s), ou null si aucune correspondance n'est trouvée.
 }
+
+
+/**
+ * Décompte 1seconde
+ */
+function decompte(){
+    afficheNombre()
+}
