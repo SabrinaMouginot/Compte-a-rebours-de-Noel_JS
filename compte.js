@@ -34,6 +34,12 @@ reste = reste % (60*1000)
 
 let secondes = Math.floor(reste / 1000)
 
+window.onload = ()=> {
+    afficheNombres()
+
+    setInterval(decompte, 1000)
+}
+
 /**
  * Cette fonction met à jour le nouvel affichage.
  */
@@ -51,5 +57,6 @@ document.querySelector("#secondes").innerText = secondes
  * Décompte 1seconde
  */
 function decompte(){
+
     afficheNombre()
 }
