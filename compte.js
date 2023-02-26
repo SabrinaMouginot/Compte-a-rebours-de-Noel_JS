@@ -34,10 +34,11 @@ reste = reste % (60*1000)
 
 let secondes = Math.floor(reste / 1000)
 
+let interval 
 window.onload = ()=> {
     afficheNombre()
 
-    setInterval(decompte, 1000)
+    interval = setInterval(decompte, 1000)
 }
 
 /**
