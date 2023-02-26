@@ -10,4 +10,7 @@ const duree = noel - maintenant
 // Calcul du nombre de jour dans la durée
 // durée d'un jour : 24h * 60min * 60s * 1000ms
 // 86 400 000 ms
-console.log(duree)
+
+let jours = duree / ( 24 * 60 * 1000 )
+
+console.log(jours)
