@@ -65,6 +65,10 @@ function decompte(){
     }else if(heures){
         secondes = minutes = 59
         heures--
+    }else if(jours){
+        secondes = minutes = 59
+        heures = 23
+        jours--
     }
     afficheNombre()
 }
