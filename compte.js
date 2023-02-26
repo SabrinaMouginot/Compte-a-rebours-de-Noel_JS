@@ -70,6 +70,8 @@ function decompte(){
         secondes = minutes = 59
         heures = 23
         jours--
+    }else {
+        clearInterval(interval)
     }
     afficheNombre()
 }
