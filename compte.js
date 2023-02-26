@@ -34,4 +34,14 @@ reste = reste % (60*1000)
 
 let secondes = Math.floor(reste / 1000)
 
-console.log(secondes)
+/**
+ * Cette fonction met à jour le nouvel affichage.
+ */
+
+function afficheNombre(){
+document.querySelector("#jours").innerText = jours
+document.querySelector("#heures").innerText = heures
+document.querySelector("#minutes").innerText = minutes
+document.querySelector("#secondes").innerText = secondes
+//La méthode querySelector() de l'interface Document retourne le premier Element dans le document correspondant au sélecteur - ou groupe de sélecteurs - spécifié(s), ou null si aucune correspondance n'est trouvée.
+}
