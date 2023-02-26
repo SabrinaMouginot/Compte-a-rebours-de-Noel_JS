@@ -25,4 +25,8 @@ let heures = Math.floor(reste / (60*60*1000))
 
 // On calcule le temps restant après retrait des heures 
 reste = reste % (60* 60 * 1000)
-console.log(reste)
+
+// Calcul du nombre de minutes dans le reste
+// Durée d'une minute : 60s * 1000ms
+let minutes = Math.floor(reste / (60 * 1000))
+console.log(minutes)
