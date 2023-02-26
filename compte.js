@@ -29,4 +29,9 @@ reste = reste % (60* 60 * 1000)
 // Calcul du nombre de minutes dans le reste
 // Durée d'une minute : 60s * 1000ms
 let minutes = Math.floor(reste / (60 * 1000))
-console.log(minutes)
+
+reste = reste % (60*1000)
+
+let secondes = Math.floor(reste / 1000)
+
+console.log(secondes)
