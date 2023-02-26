@@ -11,6 +11,6 @@ const duree = noel - maintenant
 // durée d'un jour : 24h * 60min * 60s * 1000ms
 // 86 400 000 ms
 
-let jours = duree / ( 24 * 60 * 1000 )
+let jours = Math.floor(duree / ( 24 * 60 * 1000 ))
 
 console.log(jours)
